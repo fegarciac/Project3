@@ -1,25 +1,25 @@
 import java.util.Scanner;
-public class Project3 {
+public class Porject3 {
 
-		//Project3
+		//Project1
 		// Write a program that prompts the user for a measurement in meters, and then converts it in to miles, feet, and inches.
 		public static void main(String[] args) {
 			
-			int meters; 
+			double meters; 
 			
 			System.out.println("Give me a number in meters: ");
 			Scanner userInput = new Scanner (System.in);
 		    meters = userInput.nextInt();
 		    
 		    
-		    int miles = (int) (meters * 0.000621);
-		    int feet =  (int) (meters * 3.281);
-		    int inches = (int) ( meters * 39.3701);
+		    double  miles = (int) (meters * 0.000621);
+		    double feet =  (int) (meters * 3.281);
+		    double inches = (int) ( meters * 39.3701);
 
 		    System.out.print(meters + " meters converts to " 
-		    + miles +" mile, " + feet + " feet, " 
+		    + miles +" miles, " + feet + " feet, " 
 		     + inches + " inches");
 			
 		   }
-	
+
 	}
